@@ -9,6 +9,7 @@ public class ChromeBrowserLaunch {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.facebook.com/");
+        System.out.println("Browser Launched Successfully");
         driver.quit();
     }
 }
